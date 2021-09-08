@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css2?family=Antonio);
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes slidein {
+    from{
+        opacity: 0;
+        transform: translate(0,25px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+#header {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 43%;
+    top: 0%;
+    animation-name: slidein;
+    animation-duration: 0.5s;
+}
+
+#header:hover {
+    pointer-events: auto;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #FFF1AD;
+}
+
+.about {
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    width: 70%;
+}
+
+#profile2 {
+    width: 200px;
+    position: absolute;
+    left: 90%;
+    top: 12em;
+}
+
+#texto{
+    position: relative;
+    font-family: Antonio;
+    font-size: 40px;
+    font-weight: 300;
+    color: #001D3D;
+    position: relative;
+    top: 6em;
+    left: 32%;
+}
+
+#texto2{
+    position: relative;
+    font-family: Antonio;
+    font-size: 25px;
+    font-weight: 100;
+    color: #001D3D;
+    position: relative;
+    top: 10em;
+    left: 32%;
+}
+
+#dev{
+    position: relative;
+    font-family: Antonio;
+    font-size: 20px;
+    font-weight: 100;
+    color: #294C60;
+    position: relative;
+    top: 30em;
+    left: 34%;
+}
+
+.icons {
+    position: absolute;
+    width: 5%;
+    animation-name: slidein;
+    animation-duration: 0.5s;
+}
+
+.icons:hover {
+    pointer-events: auto;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.icons2:hover {
+    pointer-events: auto;
+    transition: all 0.2s ease-in-out;
+    transform: translate(0,5px);
+}
+
+#downarrow {
+    width: 75px;
+    position: absolute;
+    top: 90%;
+    bottom: 200%;
+    animation-name: slidein;
+    animation-duration: 0.5s;
+}
+
+#share.icons {
+    top: 20%;
+    left: 22%;
+    width: 4%;
+}
+
+#profile.icons {
+    top: 35%;
+    left: 22%;
+    width: 4%;
+}
+
+#git.icons {
+    top: 50%;
+    left: 22%;
+    width: 4%;
+}
+
+#text.icons {
+    top: 65%;
+    left: 22%;
+    width: 4%;
+}

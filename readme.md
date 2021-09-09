@@ -6,7 +6,7 @@ Utilizei o conhecimento adquirido no curso "HTML Básico" e "HTML Avançado" da 
 
 Meu intuito é reunir os conceitos básicos de HTML e CSS para construir um portfólio simples com as informações básicas ao meu respeito
 
-No menu lateral existem opções como contatos, LinkedIn, GitHub e ainda uma playlist com minhas músicas favoritas
+Ainda estou estudando para subir o portfólio e logo colocar um link para visualização
 
 Estou aberta a sugestões e ideias para aprimorar meu projeto!
 
